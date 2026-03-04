@@ -94,7 +94,7 @@ ax.plot([scale_x_end, scale_x_end], [scale_y-0.2, scale_y+0.2],
 # Write scale value
 scale_length = scale_x_end - scale_x_start
 ax.text((scale_x_start + scale_x_end)/2, scale_y - 0.4, 
-        f'{scale_length} kilometers', ha='center', fontsize=11, fontweight='bold')
+        f'{scale_length} units', ha='center', fontsize=11, fontweight='bold')
 
 # Add 'SCALE' label
 ax.text(scale_x_start - 0.5, scale_y, 'SCALE', 
