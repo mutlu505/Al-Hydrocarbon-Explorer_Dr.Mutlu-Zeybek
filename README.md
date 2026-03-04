@@ -15,8 +15,8 @@ y0, y1, y2, y3 = -2, 1, 5, 7
 # Plot lithology units
 # L1 (Source Rock - Brown)
 ax.add_patch(Rectangle((x0, y0), x6-x0, y1-y0, facecolor='brown', alpha=0.6, label='L1 Source Rock'))
-# L2 (Reservoir - Yellow)
-ax.add_patch(Rectangle((x0, y1), x6-x0, y2-y1, facecolor='yellow', alpha=0.6, label='L2 Reservoir'))
+# L2 (Reservoir Rock - Yellow)
+ax.add_patch(Rectangle((x0, y1), x6-x0, y2-y1, facecolor='yellow', alpha=0.6, label='L2 Reservoir Rock'))
 # L3 (Cap Rock - Green)
 ax.add_patch(Rectangle((x0, y2), x6-x0, y3-y2, facecolor='green', alpha=0.6, label='L3 Cap Rock'))
 
